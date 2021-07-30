@@ -10,3 +10,8 @@ class IncomeViewSet(viewsets.ModelViewSet):
      
     # specify serializer to be used
     serializer_class = IncomeSerializer
+
+    filter_fields = (
+        'personiD',
+        
+    )
